@@ -1,0 +1,79 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: cardo;
+    src: url(font/Cardo-Regular.ttf);
+}
+@font-face {
+    font-family: josefins;
+    src: url(font/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: kaushan;
+    src: url(font/KaushanScript-Regular.otf);
+}
+
+a{
+    color: rgb(182, 177, 177);
+    font-family: 'cardo';
+}
+h3 {
+    border-bottom: 1px rgb(211, 211, 211) solid;
+    padding-bottom: 10px;
+    font-family:'cardo';
+    font-weight: bold;
+}
+p {
+    font-family: 'cardo';
+}
+h5 {
+    font-family: 'josefins';
+}
+h4 {
+    font-family: 'kaushan';
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'josefins';
+}
+.bg {
+    background-image: url(images/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+h2 {
+    font-family: 'josefins';
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+hr {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 30px;
+    color: rgb(53, 53, 53);
+}
+.bg2 {
+    background-image: url(images/bg7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.btn-success {
+    background-color: #88e43d !important;
+}
+/* responsif */
+
+@media only screen and (max-width: 720px) {
+
+    }
+  
